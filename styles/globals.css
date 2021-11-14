@@ -4,7 +4,7 @@ body {
   background: #e0e0e0;
   margin: 0;
   font-family: 'Roboto';
-  font-size: 1.2em;  
+  font-size: 1.1em;  
 }
 .layout {
   min-height: 100vh;
@@ -37,8 +37,9 @@ header span:last-child {
   font-weight: 800;
 }
 header h2 {
-  font-size: 1.4em;
+  font-size: 1.6em;
   font-weight: 400;
+  margin-top: 20px;
 }
 footer {
   background: #111;

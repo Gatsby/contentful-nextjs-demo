@@ -10,7 +10,7 @@ export default function Layout({ children }) {
               <span>Contentful</span>
               <span>Next.js Demo</span>
             </h1>
-            <h2>Coffee Snacks</h2>
+            <h2>Coffee Time Recipes</h2>
           </a>
         </Link>
       </header>
