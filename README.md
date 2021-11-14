@@ -1,0 +1,1 @@
+This is a custom Next.js Contentful CMS demo site inspired by Net Ninja https://netninja.dev/.
