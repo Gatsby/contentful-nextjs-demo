@@ -31,6 +31,16 @@ export const getStaticProps = async ({ params }) => {
     'fields.slug': params.slug
   })
 
+  // if no page exists, redirect to homepage
+  if (!items.length) {
+    return {
+      redirect: {
+        destination: '/',
+        permanent: false,
+      },
+    }
+  }
+
   return {
     props: { recipe: items[0] },
     // incremental static regeneration every 1 second
