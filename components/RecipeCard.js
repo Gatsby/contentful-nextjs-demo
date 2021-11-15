@@ -57,6 +57,10 @@ export default function RecipeCard({ recipe }) {
           padding: 16px 24px;
           text-decoration: none;
         }
+        .actions a:hover {
+          background: #b93f47;
+          transition: all 600ms ease-in-out;
+        }
       `}</style>
     </div>
   )
