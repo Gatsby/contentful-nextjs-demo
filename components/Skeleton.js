@@ -13,7 +13,7 @@ export default function Skeleton() {
             margin: 20px auto;
           }
           .skeleton > div {
-            background: #dbcc1a;
+            background: #e0e0e0;
             border-radius: 4px;
             margin: 20px 0;
           }
