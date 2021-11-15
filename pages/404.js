@@ -19,6 +19,7 @@ const NotFound = () => {
 
       <style jsx>{`
         .not-found {
+          margin-top: 30px;
           background: #fff;
           padding: 30px;
           box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
